@@ -1,0 +1,135 @@
+body{
+  color:#40514E;
+  margin: 0;
+  text-align: center;
+  font-family:'Merriweather',serif;   /*the heading will touch to left of the screen.*/
+   font-size: 200%;
+}
+
+h1{
+  color:#66BFBF;
+   font-size: 5.625rem;    /*90px*/
+  margin:50 auto 0 auto;   /*h1 will touch to the top of the screen.*/
+  font-family: 'Sacramento',cursive;
+}
+h2{
+  margin: auto;
+  font-weight: normal;
+    color:#66BFBF;
+  font-family: 'Montserrat',sans-serif;
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+h3{
+  color:#11999E;
+  font-family: 'Montserrat',sans-serif;
+}
+p{    /*it means that we are doing this for all the paragraphs present in our index.html*/
+    line-height: 2;
+}
+hr{
+  border:dotted #EAF6F6 6px;
+border-bottom:none;   /*for the line to be of single dots only*/
+width:4%;
+margin:100px auto;
+}
+a{  /* for all the anchor tags such as twitter,linkedinl,wesite*/
+  color:#11999E;
+    font-family: 'Montserrat',sans-serif;
+    margin:10px 20px;
+    text-decoration: none;  /*to remove the underline below all the anchor tags*/
+}
+a:hover{   /*when we bring our cursor to the anchor tagst then their color will change*/
+  color:#EAF6F6;
+}
+.top-container{
+  background-color: #E4F9F5;
+  position: relative;
+padding-top:250px;
+}
+.middle-container{
+   margin: 100px 0;
+  }
+.bottom-container{
+background-color: #66BFBF;
+padding:50px 0 20px;
+}
+.pro{
+  text-decoration:underline;
+}
+.intro{
+  width:30%;
+  margin:auto;  /*to bring the text to the center of the screen*/
+}
+.top-cloud {
+  position:absolute;
+  right:300px;
+  top:40px;
+}
+
+.bottom-cloud{
+  position: absolute;    /* by doing this the cloud which was there at the bottom will be placed anywhere randomly in the screen.*/
+  left: 250px;
+  bottom: 300px;
+}
+.skill-row{
+  width: 50%;
+  margin:100px auto 100px auto;  /*to bring the content of the skill-row section 100px at the top, center at the left , 100px at the bottom and center at left of te web page.*/
+  text-align: left;
+  /* to increase readibility of the text by increasing the spacing and  increasing the height of the letters.*/
+}
+.computer-image{
+  width: 25%;
+
+}
+.tatoo{
+  width: 25%;
+  float: left;  /*to bring the text at the right side fo the image.*/
+  margin-right: 30px;
+}
+.sticker{
+  width: 25%;
+  float:right;
+  margin-left: 20px;
+}
+.coder{
+  clear: left;   /*to bring the left written text to below the image.*/
+}
+.music{
+  clear: right;
+}
+.copyright{
+  color:#EAF6F6;
+  font-size: 0.85rem;  /*i.e. 75% of 16px.*/
+  padding: 20px 0;
+}
+.contact-me{
+  width: 40%;
+  margin:40px auto 60px;
+}
+.btn {
+  background: #d4138d;
+  background-image: -webkit-linear-gradient(top, #d4138d, #11cdd9);
+  background-image: -moz-linear-gradient(top, #d4138d, #11cdd9);
+  background-image: -ms-linear-gradient(top, #d4138d, #11cdd9);
+  background-image: -o-linear-gradient(top, #d4138d, #11cdd9);
+  background-image: linear-gradient(to bottom, #d4138d, #11cdd9);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+    font-family: 'Montserrat',sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3e3cb;
+  background-image: -webkit-linear-gradient(top, #3e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #3e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #3e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #3e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #3e3cb, #2bc4ad);
+  text-decoration: none;
+}
